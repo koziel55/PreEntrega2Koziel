@@ -1,0 +1,229 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.nombrelogo {
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header { 
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color:rgba(127, 255, 212, 0.247);
+    align-items: center;
+}
+
+.logoprincipal {
+    display: flex;
+    align-items: center;
+}
+
+.yogalogo {
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+.linkprincipal{
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.imagendeyoga {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1200px;
+    height:500px;
+}
+
+.h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+main a {
+    background-color: rgba(127, 255, 212, 0.247);
+    font-size: 40px;
+    text-align: center;
+    height: 40px;
+    display: block;
+}
+
+article h3 {
+    background-color:rgba(127, 255, 212, 0.247);
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+
+article p{ 
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.horarios {
+    text-align: center;
+    margin: 30px;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    }
+.taller { 
+    text-align: center;
+    margin: 30px;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+.taller2 {
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 5px #2893eb;
+}
+.ansiedadimg {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+}
+.ansiedad2 {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+}
+.listataller{
+    display: block;
+    background-color: rgba(127, 255, 212, 0.247);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px;
+    font-size: 90px;
+}
+.lista1 {
+    font-size: 35px;
+    margin: 40px;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(127, 255, 212, 0.247);
+}
+.dias {
+    display: inline-block;
+    background-color: rgba(127, 255, 212, 0.247);
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.horariotaller {
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+    left: 25%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+.quienessomos {
+    text-align: center;
+    margin: 30px;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+
+.persona1 {
+    margin-top: 40px;
+    position: relative;
+    width: 400px;
+    border: solid 2px #000000;
+}
+
+.parrafo1 {
+    position: absolute;
+    left: 25%;
+    top: 270px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.persona2 {
+    margin-top: 65px;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border: solid 2px #000000;
+    bottom: 50px;
+}
+
+.parrafo2{
+    position: absolute;
+    left: 25%;
+    bottom: 1%;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.imagenregistro {
+    position: relative;
+    left: 42%;
+}
+
+.tituloregistro {
+    text-align: center;
+    font-size: 50px;
+    margin: 25px;
+}
+
+.formulario {
+    display: inline-block;
+    position: relative;
+    left: 34%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
