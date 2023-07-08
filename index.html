@@ -10,26 +10,50 @@
 </head>
 <body>
   <header>
-    <a href="./index.html" class="logoprincipal">
-        <img src="./imagenes/img.png" alt="yogasalud" class="yogalogo">
-        <h1 class="nombrelogo">SERYOGA en Movimiento</h1> 
-    </a>
-    <section>
-        <a href="./index.html" class="linkprincipal">Inicio</a>
-        <a href="./html/horarios.html" class="linkprincipal">Horarios</a>
-        <a href="./html/talleres.html" class="linkprincipal">Talleres</a>
-        <a href="#" class="linkprincipal">Acerca de nosotros</a>
-        <a href="./html/registro.html" class="linkprincipal">Registro</a>
-    </section>
-   </header>   
+    <nav class="header navbar navbar-expand-lg bg-body-tertiary">
+      <section class="container-fluid">
+        <a href="./index.html" class="logoprincipal">
+         <img src="./imagenes/img.png" alt="yogasalud" class="yogalogo">
+         <h1 class="nombrelogo">SERYOGA en Movimiento</h1>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+        </a>
+        <article class="hover collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Html/horarios.html">Horarios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Html/talleres.html">Talleres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Html/acercadenosotros.html">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Html/registro.html">Registro</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="buscador btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </article>
+      </section>
+    </nav>
+   </header>  
    <main>
+     <section class="imagendeyoga">
         <h2 class="h2">PRACTICAS</h2>
+     </section>
           <a href="#hatha-yoga">Hatha Yoga</a>
           <a href="#yoga-terapeutico">Yoga terapeutico</a>
           <a href="#yoga-para-embarazadas">Yoga para embarazadas</a>
           <a href="#yoga-dinamico">Yoga dinamico</a>
-          <a href="#hatha-yoga-suave">Hatha Yoga suave</a>
-           
+          <a href="#hatha-yoga-suave">Hatha Yoga suave</a>  
           <article id="hatha-yoga">
             <h3>Hatha Yoga</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iusto nihil sint ab deleniti rem tenetur maiores quia quidem earum, neque corrupti perspiciatis nostrum necessitatibus quaerat aut. Asperiores, magnam consequatur.</p>

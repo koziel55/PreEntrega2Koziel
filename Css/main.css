@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+h1{ font-size: 3em;}
+h2{ font-size: 2.5em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;} 
+
+
+
 .nombrelogo {
     padding-right: 10px;
     font-weight: 600;
@@ -14,7 +21,7 @@ a{
     color: black;
 }
 
-header { 
+.header { 
     display: flex;
     height: 70px;
     justify-content: space-between;
@@ -22,6 +29,9 @@ header {
     align-items: center;
 }
 
+.buscador:hover {
+    color: orange;
+}
 .logoprincipal {
     display: flex;
     align-items: center;
@@ -39,11 +49,16 @@ header {
 }
 
 .imagendeyoga {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:1200px;
-    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 65vh;
+    background-image: url(/Imagenes/yogaimagen.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .h2 {
@@ -53,6 +68,7 @@ header {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     text-decoration: underline;
+    color: white;
 }
 
 
