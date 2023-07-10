@@ -4,7 +4,17 @@
     padding: 0;
 }
 
+.container {
+    max-width: 1900px;
+    min-width: 768px;
+    margin: auto;
+}
+
 .nombrelogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
     padding-right: 10px;
     font-weight: 600;
 }
@@ -31,9 +41,11 @@ a{
 }
 
 .yogalogo {
-    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
     margin-right: 10px;
-
 }
 
 .linkprincipal{
@@ -47,8 +59,9 @@ a{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    width: 100%;
     height: 65vh;
-    background-image: url(/Imagenes/yogaimagen.jpg);
+    background-image: url(../Imagenes/yogaimagen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -60,18 +73,20 @@ a{
     font-weight: bold;
     font-size: 80px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    text-decoration: underline;
     color: white;
 }
 
+main a:hover{
+    color: orange;
+}
 
 main a {
-    font-size: 40px;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
     text-align: center;
-    height: 40px;
-    display: block;
     text-decoration: underline;
 }
 
@@ -105,14 +120,18 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 .horarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 30px;
+    margin: 10px;
     font-weight: bold;
     font-size: 80px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
     text-decoration: underline;
-    }
+    color: black;
+}
+    
 .taller { 
     text-align: center;
     margin: 30px;
@@ -219,15 +238,15 @@ tr:nth-child(even) {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-
 .imagenregistro {
+    padding: 1em;
+    width: 100%;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    position: relative;
-    left: 42%;
 }
+
 
 .tituloregistro {
     display: flex;
@@ -240,12 +259,25 @@ tr:nth-child(even) {
 }
 
 .formulario {
-    display: inline-block;
-    padding: 10px;
-    position: relative;
-    left: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
+    padding: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    height: 220px;
+    color: rgb(100,100,100);
+    margin: 0;
+    padding: 12px;
+
 }
 
