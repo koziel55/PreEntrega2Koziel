@@ -67,11 +67,12 @@ a{
 
 
 main a {
-    background-color: rgba(127, 255, 212, 0.247);
     font-size: 40px;
+    padding: 10px;
     text-align: center;
     height: 40px;
     display: block;
+    text-decoration: underline;
 }
 
 article h3 {
@@ -80,7 +81,6 @@ article h3 {
     font-style: italic;
     text-align: center;
     margin-top: 60px;
-    text-decoration: underline;
 }
 
 article p{ 
