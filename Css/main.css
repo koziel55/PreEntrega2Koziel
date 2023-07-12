@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.background-menu{
+    background-color: white;
+}
+
 .nombrelogo {
     display: flex;
     justify-content: space-between;
