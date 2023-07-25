@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color-letra-principal: #000;
+$color-letra-secundario: white; 
+$color-background: rgba(99, 76, 2, 0.219);
+$fuente-principal: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+@mixin flex($justify,$align){    
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+@mixin width($width,$height){
+    width: $width;
+    height: $height;
+}
+
+
+

@@ -1,0 +1,102 @@
+.taller { 
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: $fuente-principal;
+    text-decoration: underline;
+}
+
+.imagenansiedad {
+    background-image: url(../Imagenes/ansiedad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.listataller{
+    @include flex(center, center);
+    text-align: center;
+    font-family: $fuente-principal;
+    margin: 50px;
+    font-weight: bold;
+    font-size: 35px;
+    color: $color-letra-principal;
+}
+
+.lista1 {
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 30px;
+    font-family: $fuente-principal;
+    list-style: none;
+    color: $color-letra-principal;
+}
+
+.dias {
+    @include flex(center, center);
+    text-align: center;
+    background-color: $color-background;
+    font-size: 30px;
+}
+
+.horariotaller {
+    padding: 20px;
+    font-size: 15px;
+    @include flex(center, center);
+    text-align: center;
+    font-family: $fuente-principal;
+    border-collapse: collapse;
+}
+
+.footer {
+    @include flex(center, flex-end);
+    text-align: center;
+    @include width(none, 220px);
+    color: rgb(100,100,100);
+    margin: 0;
+    padding: 12px;
+}
+
+@media (min-width: 770px){
+   
+   .taller { 
+     margin: 35px;
+     font-size: 80px;
+    }
+
+   .listataller{
+     margin: 65px;
+     font-size: 65px;
+   }
+
+   .lista1 {
+     font-size: 35px;
+     margin: 30px;
+     padding: 20px;
+     margin-left: 100px;
+   }
+
+   .dias {
+     font-size: 30px;
+     margin-left: 60px;
+   }
+
+   .horariotaller {
+     padding: 25px;
+     font-size: 30px;
+   }
+
+   .footer {
+     @include width(none, 220px);
+     color: rgb(100,100,100);
+     margin: 0;
+     padding: 12px;
+   }
+  
+    .container {
+     max-width: 1900px;
+     margin: auto;
+   } 
+}

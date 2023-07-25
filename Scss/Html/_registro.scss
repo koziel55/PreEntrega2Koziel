@@ -1,0 +1,63 @@
+.imagenregistro {
+    padding: 1em;
+    @include width(100%, 300px);
+    @include flex(center, center);
+}
+
+.tituloregistro {
+    @include flex(center, center);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 25px;
+}
+
+.formulario {
+    flex-direction: column;
+    @include flex(center, center);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: $fuente-principal;
+    font-size: 20px;
+}
+
+.footer {
+    @include flex(center, flex-end);
+    text-align: center;
+    @include width(none, 220px);
+    color: rgb(100,100,100);
+    margin: 0;
+    padding: 12px;
+}    
+
+@media (min-width: 770px){
+     
+    .imagenregistro {
+        padding: 1em;
+        @include width(100%, 300px);
+    }
+    
+    .tituloregistro {
+        font-size: 50px;
+        margin: 25px;
+    }
+    
+    .formulario {
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .footer {
+        @include width(none, 220px);
+        color: rgb(100,100,100);
+        margin: 0;
+        padding: 12px;
+    }
+    
+    .container {
+        max-width: 1900px;
+        margin: auto;
+    }
+
+}    

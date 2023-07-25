@@ -1,0 +1,104 @@
+.quienessomos {
+    @include flex(center, center);
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: $fuente-principal;
+    text-decoration: underline;
+}
+
+.contenedor1 {
+    @include flex(center, center);
+    padding-bottom: 40px;
+}
+
+.persona1 {
+    padding: 1em;
+    @include flex(center, center);
+    @include width(300px, 400px);
+    border: solid 2px #000000;
+}
+
+.parrafo1 {
+    @include flex(flex-end, center);
+    text-align: center;
+    font-size: 15px;
+    font-family: $fuente-principal;
+}
+
+.contenedor2 {
+    @include flex(center, center);
+    padding-bottom: 40px;
+}
+
+.persona2 {
+    margin-top: 65px;
+    position: relative;
+    @include width(350px, 450px);
+    border: solid 2px #000000;
+}
+
+.parrafo2{
+    @include flex(flex-end, center);
+    text-align: center;
+    font-size: 15px;
+    font-family: $fuente-principal;
+}
+
+.footer {
+    @include flex(center, flex-end);
+    text-align: center;
+    @include width(none, 220px);
+    color: rgb(100,100,100);
+    margin: 0;
+    padding: 12px;
+}
+
+@media (min-width: 770px){
+    
+    .quienessomos {
+        margin: 30px;
+        font-size: 80px;
+    }
+    
+    .contenedor1 {
+        padding-bottom: 40px;
+    }
+    
+    .persona1 {
+        padding: 1em;
+        @include width(400px, 500px);
+    }
+    
+    .parrafo1 {
+        font-size: 20px;
+    }
+    
+    .contenedor2 {
+        padding-bottom: 40px;
+    }
+    
+    .persona2 {
+        margin-top: 65px;
+        @include width(400px, 500px);
+    }
+    
+    .parrafo2{
+        font-size: 20px;
+    }
+
+    .footer {
+        @include width(none, 220px);
+        color: rgb(100,100,100);
+        margin: 0;
+        padding: 12px;
+    }
+      
+      .container {
+        max-width: 1900px;
+        margin: auto;
+    }
+
+
+}
