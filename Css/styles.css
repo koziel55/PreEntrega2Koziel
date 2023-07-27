@@ -9,12 +9,7 @@
 }
 
 .nombrelogo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 25px;
-  padding-right: 5px;
-  font-weight: 600;
+  display: none;
 }
 
 a {
@@ -103,7 +98,12 @@ article h3 {
 
 @media (min-width: 770px) {
   .nombrelogo {
-    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding-right: 5px;
+    font-weight: 600;
   }
   .imagendeyoga {
     width: 100%;

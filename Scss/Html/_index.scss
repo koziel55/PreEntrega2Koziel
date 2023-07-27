@@ -1,12 +1,9 @@
 .backgound-menu{
-    color: white;
+    color: $color-letra-secundario;
 }
 
-.nombrelogo{
-    @include flex(space-between, center);
-    font-size: 25px;
-    padding-right: 5px;
-    font-weight: 600;
+.nombrelogo {
+  display: none;
 }
 
 a{
@@ -83,8 +80,11 @@ article h3 {
 
 @media (min-width: 770px){
 
-    .nombrelogo {
-      font-size: 30px;
+    .nombrelogo{
+      @include flex(space-between, center);
+      font-size: 25px;
+      padding-right: 5px;
+      font-weight: 600;
     }
     
     .imagendeyoga {
