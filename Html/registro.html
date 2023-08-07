@@ -30,13 +30,13 @@
 					  <a class="nav-link" href="../index.html">Inicio</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="../Html/horarios.html">Horarios</a>
+					  <a class="nav-link" href="./horarios.html">Horarios</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="../Html/talleres.html">Talleres</a>
+					  <a class="nav-link" href="./talleres.html">Talleres</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="../Html/acercadenosotros.html">Acerca de nosotros</a>
+					  <a class="nav-link" href="./acercadenosotros.html">Acerca de nosotros</a>
 					</li>
 					<li class="nav-item">
 					  <a class="nav-link" href="#">Registro</a>
@@ -77,28 +77,30 @@
 				<section>
 					<article class="formulario">
 						<form action="#">
-							<label for="name" class="nombre">Nombre</label>
+						  <div class="registro">
+							 <div class="nombre1">
+							  <label for="name" class="nombre">Nombre</label>
 								 <input type="name" placeholder="Nombre">
-							<label for="surname" class="apellido">Apellido</label>	 
-								 <input type="surname" placeholder="Apellido">
-							  <br>							
-							<label for="email">Email:</label>
-								<input type="email" placeholder="aaa@gmail.com" name="email">
-							  <br>			
-							<label for="password">Contraseña</label>
+							  <label for="surname" class="apellido">Apellido</label>	 
+								 <input type="surname" placeholder="Apellido">	
+							 </div> 					
+							 <div class="email">
+							  <label for="email">Email:</label>
+								 <input type="email" placeholder="aaa@gmail.com" name="email">			
+							  <label for="password">Contraseña</label>
 								<input type="password" name="contraseña" placeholder="Contraseña">
-							  <br>			
-							<label for="Observaciones"> Observaciones sobre el sitio:</label>
-							  <br>
+							 </div>			
+							  <label for="Observaciones"> Observaciones sobre el sitio:</label>
 								<textarea placeholder="Observaciones"></textarea>
-							  <br>
 							  <label for="number">Edad</label>
 							   <input type="number" placeholder="Edad">
-							  <br>
-							<p>Queres recibir info sobre nosotros?
-							  <input type="checkbox" name="acepta" value="1"></p>
-							  <input type="submit" value="ENVIAR">
-							  <input type="reset" value="CANCELAR">
+							 <div>  
+							    <p>Queres recibir info sobre nosotros?
+							     <input type="checkbox" name="acepta" value="1"></p>
+							     <input type="submit" value="ENVIAR">
+							     <input type="reset" value="CANCELAR">
+							 </div>	 
+						  </div>
 						</form>
 					</article>
 				</section>

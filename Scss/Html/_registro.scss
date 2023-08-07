@@ -12,10 +12,12 @@
     margin: 25px;
 }
 
-.formulario {
-    flex-direction: column;
+
+.registro {
     @include flex(center, center);
+    flex-direction: column;
     text-align: center;
+    @include width (100%, none);
     margin: 10px;
     padding: 10px;
     font-family: $fuente-principal;
@@ -43,9 +45,12 @@
         margin: 25px;
     }
     
-    .formulario {
+    .registro {
+        @include flex (center, center);
+        flex-direction: column;
         padding: 10px;
         font-size: 20px;
+        
     }
     
     .footer {
