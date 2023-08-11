@@ -1,3 +1,5 @@
+//----VISTA MOBILE----//
+
 .quienessomos {
     @include flex(center, center);
     text-align: center;
@@ -54,6 +56,8 @@
     margin: 0;
     padding: 12px;
 }
+
+//----VISTA DESKTOP----//
 
 @media (min-width: 770px){
     
